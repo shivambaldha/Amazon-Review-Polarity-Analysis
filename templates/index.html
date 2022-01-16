@@ -1,0 +1,67 @@
+<html>
+<body>
+<head>
+<style>
+body {
+  background-image: url('https://i0.wp.com/www.indiaretailing.com/wp-content/uploads/2021/01/amzon-india3.jpg?resize=681%2C400&ssl=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #000000;
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   padding: 3px;
+   background-color: DarkSalmon;
+   color: black;
+}
+</style>
+</head>
+  <center>
+    <h1><center>Amazon Fine Food Reviews: Polarity Analysis</center></h1>
+
+    <label for="review_text"><h2>Enter The Review Text</h2></label>
+
+<div>
+  <form action="/predict" method="POST">
+      <textarea name="review_text" rows="5" cols="40"></textarea>
+    <br>
+    <button class="button button1">Submit</button>
+  </form>
+</div>
+</center>
+<div class="footer">
+<footer>
+  <p><B>Connect with me</B><br>
+  <a href="https://www.linkedin.com/in/shivam-baldha/">Linkedin.com</a></p>
+</footer> 
+  <p><B>Detail Code </B><br>
+  <a href="https://github.com/shivambaldha">Github.com</a></p>
+</div>
+</body>
+</html>
